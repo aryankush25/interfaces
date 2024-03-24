@@ -1,9 +1,11 @@
 package main
 
+// Interface type
 type bot interface {
 	getGreeting() string
 }
 
+// Concrete types
 type englishBot struct{}
 type hindiBot struct{}
 
